@@ -11,7 +11,5 @@
     "releasenote": "See https://github.com/vegardit/haxe-files/blob/master/CHANGELOG.md",
     "version": "1.2.1",
     "dependencies": {
-        "haxe-concurrent": "",
-        "haxe-strings": ""
     }
 }
