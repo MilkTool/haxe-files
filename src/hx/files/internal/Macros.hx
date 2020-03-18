@@ -29,10 +29,10 @@ class Macros {
             def.exists("php7") ||
             def.exists("python")
         ) {
-            trace("[INFO] Setting compiler define 'filesystem_support'.");
+            // trace("[INFO] Setting compiler define 'filesystem_support'.");
             Compiler.define("filesystem_support");
         } else {
-            trace("[INFO] NOT setting compiler define 'filesystem_support'.");
+            // trace("[INFO] NOT setting compiler define 'filesystem_support'.");
         }
         return macro {}
     }
